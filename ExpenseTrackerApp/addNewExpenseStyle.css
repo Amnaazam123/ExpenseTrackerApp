@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+.heading{
+    text-align: center;
+}
+form{
+    width: 80%;
+    margin: auto;
+}
+input[type=text]{
+    width: 75%;
+    padding: 0.6%;
+    border: 1px solid rgb(200, 200, 200);
+    margin: 0.8%;
+    border-radius: 4px;
+}
+label{
+    display: inline-block;
+    width: 17%;
+    font-weight: bold;
+}
+.addDiv,.backDiv{
+    text-align: center;
+}
+.addbtn{
+padding: 0.7%;
+width: 10%;
+background-color: black;
+color: white;
+border-radius: 3px;
+border: 1px solid black;
+}
+.backbtn{
+    padding: 0.7%;
+    width: 20%;
+    margin-top:1% ;
+    border: 1px solid green;
+    color: green;
+    border-radius: 3px;
+}

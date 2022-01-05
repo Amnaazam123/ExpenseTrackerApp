@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addNewExpenseStyle.css">
+</head>
+<body id="Body2">
+    <h1 class="heading">Update your Expense</h1>
+    <form action="">
+        <table>
+            <label for="expSumm">Expense Summary</label>
+            <input type="text" id="expSumm" name="summary" placeholder="Expense Summary here"><br>
+            <label for="expDes">Expense Description</label>
+            <input type="text" id="expDes" name="description" placeholder="Expense Description here"><br>
+            <label for="amt">Amount</label>
+            <input type="text" id="amt" name="Amount" placeholder="Expense Amount here"><br>
+            <label for="typ">Type</label>
+            <input type="text" id="typ" name="type" placeholder="Expense Type here"><br>
+            <label for="time">Time</label>
+            <input type="text" id="time" name="timee" value="">
+            <a href="expenseTracker.html"><input type="button" value="Update" class="addBtn" onclick="updateData();"></a>
+        </table>
+    </form>
+<div class="backDiv">
+    <a href="expenseTracker.html"><button class="backBtn">Go Back to Home</button></a>
+</div>
+
+<script src="js2.js"></script>
+<script src="common.js"></script>
+</body>
+</html>

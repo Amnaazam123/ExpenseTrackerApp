@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+}
+.myDivForm{
+    width: 70%;
+    margin: auto;
+}
+
+.myHeading{
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+}
+#typee{
+    width: 100%;
+}
+#range1,#range2{
+    width: 20%;
+}
+input,select{
+    padding: 0.5%;
+}
+.mytxt{
+    font-weight: bold;
+    font-size: 24px;
+}
+.backbtn{
+    padding: 0.7%;
+    width: 20%;
+    margin-top:1% ;
+    border: 1px solid green;
+    color: green;
+    border-radius: 3px;
+}
+.addDiv,.backDiv{
+    text-align: center;
+}
+.addbtn{
+padding: 0.7%;
+width: 28%;
+background-color: black;
+color: white;
+border-radius: 3px;
+border: 1px solid black;
+margin-top: 3%;
+border: 2px solid rgb(87, 86, 86);
+}
+table{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    border: 1px solid rgb(128, 128, 128);
+    border-collapse: collapse;
+    font-size: 12px;
+    height: 10%;
+    display: none;
+}
+td{
+    padding: 0.5%;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+th{
+    padding: 1%;
+}
+tbody tr:nth-child(odd){
+    background-color: #e9e9e9;
+}
+thead{
+    background-color: black;
+    color: white;
+}

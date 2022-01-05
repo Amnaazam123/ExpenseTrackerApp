@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+}
+h1,h2{
+    text-align: center;
+}
+.time{
+    width: 40%;
+    margin: auto;
+}
+#month,#year{
+    width: 49%;
+    padding: 1%;
+}
+.wrapper{
+    margin: auto;
+        height: 300px;
+        width: 400px;
+}
+.backbtn{
+    padding: 0.7%;
+    width: 30%;
+    margin-top:1% ;
+    border: 1px solid green;
+    color: green;
+    border-radius: 3px;
+}
+.backDiv{
+    text-align: center;
+}

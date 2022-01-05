@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Expenses</title>
+    <link rel="stylesheet" href="filterExpensesStyle.css">
+</head>
+<body>
+    <h1 class="myHeading">Filter Expenses</h1>
+    <div class="myDivForm">
+        <form class="myFrom"action="">
+            <label for = "types" class="mytxt">Type</label>
+            <select id="typee" name="types" onchange="selectedType(this)">
+            </select>
+            <br><br>
+            <div class="mytxt">Range</div>
+            <input type="text" id="range1" name="range1" placeholder="From">
+            <input type="text" id="range2" name="range2" placeholder="To"><br>
+            <div style="text-align: center;"><input type="button" value="Show Filtered Results" class="addBtn" id="filterbtn" onclick="displayTable();"></div>
+        </form>
+    </div>
+
+    <table id="myTable">
+        <thead>
+            <th>Sr.</th>
+            <th>Expense Summary.</th>
+            <th>Description.</th>
+            <th>Price</th>
+            <th>Type</th>
+            <th>Date</th>
+        </thead>
+        <tbody id="root">
+
+        </tbody>
+</table>
+
+
+    <div class="backDiv">
+        <a href="expenseTracker.html"><button class="backBtn">Go Back to Home</button></a>
+    </div>
+    <script src="filterJS.js"></script>
+</body>
+</html>
